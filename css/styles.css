@@ -12790,9 +12790,12 @@ html {
   font-size: 1.25rem;
 }
 
-.masthead .masthead-avatar {
+.masthead .size-avatar {
   width: 23rem;
   height: 23rem;
+}
+
+.masthead .masthead-avatar {
   border-radius: 15rem;
   background-color: white;
 }
@@ -12811,6 +12814,15 @@ html {
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
+}
+
+.services .service-item{
+  /* background-color: lightblue; */
+}
+
+.services .service-item svg {
+  width: 8rem;
+  height: 8rem;
 }
 
 .portfolio .portfolio-item {

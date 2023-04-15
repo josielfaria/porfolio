@@ -19,7 +19,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
       return;
     }
       console.log('window.scrollY', window.scrollY)
-    if (window.scrollY >= 770) {
+    if (window.scrollY >= 70) {
       navbarCollapsible.classList.add("navbar-transparent");
     } else {
       navbarCollapsible.classList.remove("navbar-transparent");
