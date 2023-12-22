@@ -441,6 +441,12 @@ section .container {
   margin-bottom: 0;
 }
 
+.about-me img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -638,8 +644,11 @@ section .container {
 .services .icon-box {
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
-  padding: 80px 20px;
+  padding: 40px 20px;
   transition: all ease-in-out 0.3s;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(0.25turn, #5d4b73, #a3586d, #f7694d, #ee8a51, #f3af5a);
+  border-image-slice: 1;
 }
 
 .services .icon-box .icon {
@@ -704,7 +713,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon::before {
-  background: #35e888;
+  background: #a3586d;
 }
 
 .services .icon-box:hover h4 a,
